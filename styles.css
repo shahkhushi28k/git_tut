@@ -1,0 +1,16 @@
+.glow-button {
+    background-color: #111;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #0ff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .glow-button:hover {
+    box-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0ff;
+  }
+  
